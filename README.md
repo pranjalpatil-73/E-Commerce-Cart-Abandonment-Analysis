@@ -1,72 +1,81 @@
 **E-Commerce Cart Abandonment Analysis & Revenue Recovery Strategies**
-1. Project Overview
-This project focuses on analyzing cart abandonment rates in an e-commerce platform and identifying strategies to recover lost revenue. By understanding user behavior, checkout page drop-offs, and key factors leading to abandonment, we provide actionable insights to improve conversion rates and boost revenue.
 
-2. Business Problem
+**1. Project Overview**
+
+This project focuses on analyzing **cart abandonment rates** in an e-commerce platform and identifying strategies to recover lost revenue. By understanding user behavior, checkout page drop-offs, and key factors leading to abandonment, we provide actionable insights to improve conversion rates and boost revenue.
+
+**2. Business Problem**
+
 Online stores lose billions of dollars annually due to customers abandoning their carts before completing a purchase. The primary challenges are:
 
-High cart abandonment rates.
+. High cart abandonment rates.
 
-Lack of understanding of why customers leave without purchasing.
+. Lack of understanding of why customers leave without purchasing.
 
-Missed opportunities to recover lost revenue.
-3. Solution Approach
+. Missed opportunities to recover lost revenue.
+
+**3. Solution Approach**
+
 The analysis involves:
 
-Data Collection: Using transaction data from an e-commerce platform.
+. Data Collection: Using transaction data from an e-commerce platform.
 
-Data Preprocessing: Cleaning and preparing the data for analysis.
+. Data Preprocessing: Cleaning and preparing the data for analysis.
 
-Exploratory Data Analysis (EDA): Analyzing cart abandonment rates, user behavior, and checkout page drop-offs.
+. Exploratory Data Analysis (EDA): Analyzing cart abandonment rates, user behavior, and checkout page drop-offs.
 
-Feature Engineering: Creating features like total items, total price, and time since last purchase.
+. Feature Engineering: Creating features like total items, total price, and time since last purchase.
 
-Modeling: Building a predictive model to identify the likelihood of cart abandonment.
+. Modeling: Building a predictive model to identify the likelihood of cart abandonment.
 
-Strategy Formulation: Suggesting actionable strategies like personalized discounts and email reminders.
+. Strategy Formulation: Suggesting actionable strategies like personalized discounts and email reminders.
 
-Business Impact: Quantifying the potential revenue recovery.
+. Business Impact: Quantifying the potential revenue recovery.
 
-4. Key Business Metrics
+**4. Key Business Metrics**
+
    The following metrics were calculated to measure the impact of cart abandonment:
 
-Cart Abandonment Rate: 25.3% of carts are abandoned before purchase.
+. Cart Abandonment Rate: 25.3% of carts are abandoned before purchase.
 
-Potential Revenue Recovery: $12,500 can be recovered through targeted strategies.
+. Potential Revenue Recovery: $12,500 can be recovered through targeted strategies.
 
-Top Factors Leading to Abandonment:
+. Top Factors Leading to Abandonment:
 
-Time Since Last Purchase: Customers who haven’t purchased in over 30 days are 40% more likely to abandon their carts.
+  1 Time Since Last Purchase: Customers who haven’t purchased in over 30 days are 40% more likely to abandon their carts.
 
-Total Price: Carts with a total price above $100 have a 35% abandonment rate.
+  2 Total Price: Carts with a total price above $100 have a 35% abandonment rate.
 
-Total Items: Carts with more than 5 items have a 30% abandonment rate.
+  3 Total Items: Carts with more than 5 items have a 30% abandonment rate.
 
-Abandonment Rate by Customer Segment:
+**Abandonment Rate by Customer Segment:**
 
 Low-value customers: 30%
 
 Medium-value customers: 20%
 
 High-value customers: 10%
-Abandonment Rate by Time:
 
-Peak abandonment hour: 2 PM (Abandonment Rate: 35%)
 
-Peak abandonment day: Friday (Abandonment Rate: 40%)
+**Abandonment Rate by Time:**
 
-5. Business Impact
+  Peak abandonment hour: 2 PM (Abandonment Rate: 35%)
+
+  Peak abandonment day: Friday (Abandonment Rate: 40%)
+
+**5. Business Impact**
 The analysis provides the following business impact:
 
-Revenue Recovery: By implementing email reminders and personalized discounts, the business can recover $12,500 in lost revenue.
+  Revenue Recovery: By implementing email reminders and personalized discounts, the business can recover $12,500 in lost revenue.
 
-Improved Conversion Rates: Reducing cart abandonment rates by 10% through targeted interventions.
+  Improved Conversion Rates: Reducing cart abandonment rates by 10% through targeted interventions.
 
-Customer Retention: Retaining high-value customers by addressing their specific pain points.
+  Customer Retention: Retaining high-value customers by addressing their specific pain points.
 
-Optimized Marketing Spend: Focusing marketing efforts on high-risk customers and peak abandonment times.
+  Optimized Marketing Spend: Focusing marketing efforts on high-risk customers and peak abandonment times.
 
-6. Data Source
+**6. Data Source**
+
 The dataset used for this analysis is the E-Commerce Data from Kaggle. It contains transaction data for an online retail store, including information on customer purchases, quantities, prices, and timestamps.
 
 Dataset Link: E-Commerce Data on Kaggle
@@ -88,6 +97,8 @@ UnitPrice: Price of a single item.
 CustomerID: Unique identifier for each customer.
 
 Country: Country where the transaction occurred.
+
+
 7. Methodology
 The analysis follows these steps:
 
